@@ -29,7 +29,7 @@ from .models import Snippet, LANGUAGE_CHOICE, STYLE_CHOICES
 #         instance.save()
 
 #         return instance
-
+# SECOND TUTORIAL
 class SnippetSerializer(serializers.ModelSerializer):
     """ Refactorizando nuestro modelo anterior """
     class Meta:
